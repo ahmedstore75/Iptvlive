@@ -2,10 +2,10 @@ const express = require('express');
 const fetch = require('node-fetch');
 const app = express();
 
-// বাংলাদেশের সকল অনুমোদিত লাইভ চ্যানেল এবং জনপ্রিয় ভারতীয় চ্যানেল
+// চ্যানেলগুলোর তালিকা
 const CHANNELS = {
   // ==========================================
-  //  বাংলাদেশি সরকারি ও বিনোদন চ্যানেল (ALL BD ENTERTAINMENT)
+  //  বাংলাদেশি সরকারি ও বিনোদন চ্যানেল
   // ==========================================
   "btv": "https://playztv-apps.pages.dev/btv/index.m3u8",
   "btv-world": "https://playztv-apps.pages.dev/btv-world/index.m3u8",
@@ -37,7 +37,7 @@ const CHANNELS = {
   "eepl-news": "https://playztv-apps.pages.dev/eepl-news/index.m3u8",
 
   // ==========================================
-  //  বাংলাদেশি সংবাদ চ্যানেল (ALL BD NEWS CHANNELS)
+  //  বাংলাদেশি সংবাদ চ্যানেল
   // ==========================================
   "somoy-tv": "https://playztv-apps.pages.dev/somoy-tv/index.m3u8",
   "independent-tv": "https://playztv-apps.pages.dev/independent-tv/index.m3u8",
@@ -51,7 +51,7 @@ const CHANNELS = {
   "nexus-tv": "https://playztv-apps.pages.dev/nexus-tv/index.m3u8",
 
   // ==========================================
-  //  স্পোর্টস চ্যানেল (SPORTS CHANNELS)
+  //  স্পোর্টস চ্যানেল
   // ==========================================
   "tsports": "https://playztv-apps.pages.dev/tsports/index.m3u8",
   "asports": "https://playztv-apps.pages.dev/asports/index.m3u8",
@@ -68,10 +68,10 @@ const CHANNELS = {
   "sports-18-1": "https://playztv-apps.pages.dev/sports-18-1/index.m3u8",
 
   // ==========================================
-  //  ভারতীয় বাংলা ও হিন্দি সিরিয়াল/বিনোদন
+  //  ভারতীয় বিনোদন ও সিরিয়াল
   // ==========================================
   "star-jalsha": "https://playztv-apps.pages.dev/star-jalsha/index.m3u8",
-  "zee-bangla": "https://d1g8wgjurz8via.cloudfront.net/bpk-tv/ColorsHD/default/Zeebanglahd.m3u8",
+  "zee-bangla": "https://playztv-apps.pages.dev/zee-bangla/index.m3u8",
   "colors-bangla": "https://playztv-apps.pages.dev/colors-bangla/index.m3u8",
   "star-plus": "https://playztv-apps.pages.dev/star-plus/index.m3u8",
   "sony-sab": "https://playztv-apps.pages.dev/sony-sab/index.m3u8",
@@ -80,10 +80,10 @@ const CHANNELS = {
   "sony-entertainment": "https://playztv-apps.pages.dev/sony-entertainment/index.m3u8",
 
   // ==========================================
-  //  ইন্ডিয়ান মুভি চ্যানেল (INDIAN MOVIE CHANNELS)
+  //  ইন্ডিয়ান মুভি চ্যানেল
   // ==========================================
   "jalsha-movies": "https://playztv-apps.pages.dev/jalsha-movies/index.m3u8",
-  "zee-bangla-cinema": "https://playztv-apps.pages.dev/zee-bangla-cinema/index.m3u8",
+  "zee-bangla-cinema": "https://d1g8wgjurz8via.cloudfront.net/bpk-tv/ColorsHD/default/Zeebanglahd.m3u8",
   "zee-cinema": "https://playztv-apps.pages.dev/zee-cinema/index.m3u8",
   "star-gold": "https://playztv-apps.pages.dev/star-gold/index.m3u8",
   "star-gold-select": "https://playztv-apps.pages.dev/star-gold-select/index.m3u8",
@@ -93,7 +93,7 @@ const CHANNELS = {
   "colors-cineplex": "https://playztv-apps.pages.dev/colors-cineplex/index.m3u8"
 };
 
-// ১. প্রক্সি স্ট্রিম রাউট
+// ১. স্মার্ট প্রক্সি স্ট্রিম রাউট (Cloudfront সহ সকল স্ট্রিম ফিক্স করার জন্য)
 app.get('/:slug/index.m3u8', async (req, res) => {
   const { slug } = req.params;
   const targetUrl = CHANNELS[slug];
@@ -105,15 +105,30 @@ app.get('/:slug/index.m3u8', async (req, res) => {
   try {
     const response = await fetch(targetUrl, {
       headers: {
-        'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64)',
+        'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36',
         'Accept': '*/*'
       }
     });
 
+    if (!response.ok) {
+      return res.status(response.status).send('Source Stream Error');
+    }
+
+    let bodyText = await response.text();
+    const baseUrl = targetUrl.substring(0, targetUrl.lastIndexOf('/') + 1);
+
+    // .m3u8 ফাইলের ভেতরের ভিডিও সেগমেন্ট বা প্লেলিস্ট পাথগুলোকে ফুল ইউআরএল-এ কনভার্ট করা
+    bodyText = bodyText.replace(/^(?!#)(.+)$/gm, (line) => {
+      const trimmedLine = line.trim();
+      if (trimmedLine.startsWith('http://') || trimmedLine.startsWith('https://')) {
+        return trimmedLine;
+      }
+      return `${baseUrl}${trimmedLine}`;
+    });
+
     res.setHeader('Content-Type', 'application/vnd.apple.mpegurl');
     res.setHeader('Access-Control-Allow-Origin', '*');
-    
-    response.body.pipe(res);
+    res.send(bodyText);
   } catch (err) {
     res.status(500).send('Proxy Error');
   }
