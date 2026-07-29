@@ -1,0 +1,210 @@
+#EXTM3U
+
+# --- BANGLADESHI GENERAL & ENTERTAINMENT ---
+#EXTINF:-1 tvg-id="btv" tvg-name="BTV", BTV
+https://iptvlive-beta.vercel.app/btv/index.m3u8
+
+#EXTINF:-1 tvg-id="btv-world" tvg-name="BTV WORLD", BTV WORLD
+https://iptvlive-beta.vercel.app/btv-world/index.m3u8
+
+#EXTINF:-1 tvg-id="btv-chittagong" tvg-name="BTV CHITTAGONG", BTV CHITTAGONG
+https://iptvlive-beta.vercel.app/btv-chittagong/index.m3u8
+
+#EXTINF:-1 tvg-id="sangsad-tv" tvg-name="SANGSAD TV", SANGSAD TV
+https://iptvlive-beta.vercel.app/sangsad-tv/index.m3u8
+
+#EXTINF:-1 tvg-id="atn-bangla" tvg-name="ATN BANGLA", ATN BANGLA
+https://iptvlive-beta.vercel.app/atn-bangla/index.m3u8
+
+#EXTINF:-1 tvg-id="channel-i" tvg-name="CHANNEL I", CHANNEL I
+https://iptvlive-beta.vercel.app/channel-i/index.m3u8
+
+#EXTINF:-1 tvg-id="ntv" tvg-name="NTV", NTV
+https://iptvlive-beta.vercel.app/ntv/index.m3u8
+
+#EXTINF:-1 tvg-id="rtv" tvg-name="RTV", RTV
+https://iptvlive-beta.vercel.app/rtv/index.m3u8
+
+#EXTINF:-1 tvg-id="ekushey-tv" tvg-name="EKUSHEY TV", EKUSHEY TV
+https://iptvlive-beta.vercel.app/ekushey-tv/index.m3u8
+
+#EXTINF:-1 tvg-id="banglavision" tvg-name="BANGLAVISION", BANGLAVISION
+https://iptvlive-beta.vercel.app/banglavision/index.m3u8
+
+#EXTINF:-1 tvg-id="boishakhi-tv" tvg-name="BOISHAKHI TV", BOISHAKHI TV
+https://iptvlive-beta.vercel.app/boishakhi-tv/index.m3u8
+
+#EXTINF:-1 tvg-id="desh-tv" tvg-name="DESH TV", DESH TV
+https://iptvlive-beta.vercel.app/desh-tv/index.m3u8
+
+#EXTINF:-1 tvg-id="my-tv" tvg-name="MY TV", MY TV
+https://iptvlive-beta.vercel.app/my-tv/index.m3u8
+
+#EXTINF:-1 tvg-id="asian-tv" tvg-name="ASIAN TV", ASIAN TV
+https://iptvlive-beta.vercel.app/asian-tv/index.m3u8
+
+#EXTINF:-1 tvg-id="maasranga-tv" tvg-name="MAASRANGA TV", MAASRANGA TV
+https://iptvlive-beta.vercel.app/maasranga-tv/index.m3u8
+
+#EXTINF:-1 tvg-id="channel-9" tvg-name="CHANNEL 9", CHANNEL 9
+https://iptvlive-beta.vercel.app/channel-9/index.m3u8
+
+#EXTINF:-1 tvg-id="gazi-tv" tvg-name="GAZI TV", GAZI TV
+https://iptvlive-beta.vercel.app/gazi-tv/index.m3u8
+
+#EXTINF:-1 tvg-id="mohona-tv" tvg-name="MOHONA TV", MOHONA TV
+https://iptvlive-beta.vercel.app/mohona-tv/index.m3u8
+
+#EXTINF:-1 tvg-id="bijoy-tv" tvg-name="BIJOY TV", BIJOY TV
+https://iptvlive-beta.vercel.app/bijoy-tv/index.m3u8
+
+#EXTINF:-1 tvg-id="saamtv" tvg-name="SA TV", SA TV
+https://iptvlive-beta.vercel.app/saamtv/index.m3u8
+
+#EXTINF:-1 tvg-id="ananda-tv" tvg-name="ANANDA TV", ANANDA TV
+https://iptvlive-beta.vercel.app/ananda-tv/index.m3u8
+
+#EXTINF:-1 tvg-id="nagorik-tv" tvg-name="NAGORIK TV", NAGORIK TV
+https://iptvlive-beta.vercel.app/nagorik-tv/index.m3u8
+
+#EXTINF:-1 tvg-id="deepto-tv" tvg-name="DEEPTO TV", DEEPTO TV
+https://iptvlive-beta.vercel.app/deepto-tv/index.m3u8
+
+#EXTINF:-1 tvg-id="gan-bangla" tvg-name="GAAN BANGLA", GAAN BANGLA
+https://iptvlive-beta.vercel.app/gan-bangla/index.m3u8
+
+#EXTINF:-1 tvg-id="duronto-tv" tvg-name="DURONTO TV", DURONTO TV
+https://iptvlive-beta.vercel.app/duronto-tv/index.m3u8
+
+#EXTINF:-1 tvg-id="green-tv" tvg-name="GREEN TV", GREEN TV
+https://iptvlive-beta.vercel.app/green-tv/index.m3u8
+
+#EXTINF:-1 tvg-id="global-tv" tvg-name="GLOBAL TV", GLOBAL TV
+https://iptvlive-beta.vercel.app/global-tv/index.m3u8
+
+#EXTINF:-1 tvg-id="eepl-news" tvg-name="EEPL NEWS", EEPL NEWS
+https://iptvlive-beta.vercel.app/eepl-news/index.m3u8
+
+# --- BANGLADESHI NEWS CHANNELS ---
+#EXTINF:-1 tvg-id="somoy-tv" tvg-name="SOMOY TV", SOMOY TV
+https://iptvlive-beta.vercel.app/somoy-tv/index.m3u8
+
+#EXTINF:-1 tvg-id="independent-tv" tvg-name="INDEPENDENT TV", INDEPENDENT TV
+https://iptvlive-beta.vercel.app/independent-tv/index.m3u8
+
+#EXTINF:-1 tvg-id="channel-24" tvg-name="CHANNEL 24", CHANNEL 24
+https://iptvlive-beta.vercel.app/channel-24/index.m3u8
+
+#EXTINF:-1 tvg-id="ekattor-tv" tvg-name="EKATTOR TV", EKATTOR TV
+https://iptvlive-beta.vercel.app/ekattor-tv/index.m3u8
+
+#EXTINF:-1 tvg-id="jamuna-tv" tvg-name="JAMUNA TV", JAMUNA TV
+https://iptvlive-beta.vercel.app/jamuna-tv/index.m3u8
+
+#EXTINF:-1 tvg-id="dbc-news" tvg-name="DBC NEWS", DBC NEWS
+https://iptvlive-beta.vercel.app/dbc-news/index.m3u8
+
+#EXTINF:-1 tvg-id="atn-news" tvg-name="ATN NEWS", ATN NEWS
+https://iptvlive-beta.vercel.app/atn-news/index.m3u8
+
+#EXTINF:-1 tvg-id="news-24" tvg-name="NEWS 24", NEWS 24
+https://iptvlive-beta.vercel.app/news-24/index.m3u8
+
+#EXTINF:-1 tvg-id="ekhon-tv" tvg-name="EKHON TV", EKHON TV
+https://iptvlive-beta.vercel.app/ekhon-tv/index.m3u8
+
+#EXTINF:-1 tvg-id="nexus-tv" tvg-name="NEXUS TV", NEXUS TV
+https://iptvlive-beta.vercel.app/nexus-tv/index.m3u8
+
+# --- SPORTS CHANNELS ---
+#EXTINF:-1 tvg-id="tsports" tvg-name="T SPORTS", T SPORTS
+https://iptvlive-beta.vercel.app/tsports/index.m3u8
+
+#EXTINF:-1 tvg-id="asports" tvg-name="A SPORTS", A SPORTS
+https://iptvlive-beta.vercel.app/asports/index.m3u8
+
+#EXTINF:-1 tvg-id="star-sports-1" tvg-name="STAR SPORTS 1", STAR SPORTS 1
+https://iptvlive-beta.vercel.app/star-sports-1/index.m3u8
+
+#EXTINF:-1 tvg-id="star-sports-2" tvg-name="STAR SPORTS 2", STAR SPORTS 2
+https://iptvlive-beta.vercel.app/star-sports-2/index.m3u8
+
+#EXTINF:-1 tvg-id="star-sports-select-1" tvg-name="STAR SPORTS SELECT 1", STAR SPORTS SELECT 1
+https://iptvlive-beta.vercel.app/star-sports-select-1/index.m3u8
+
+#EXTINF:-1 tvg-id="star-sports-select-2" tvg-name="STAR SPORTS SELECT 2", STAR SPORTS SELECT 2
+https://iptvlive-beta.vercel.app/star-sports-select-2/index.m3u8
+
+#EXTINF:-1 tvg-id="sony-sports-ten-1" tvg-name="SONY SPORTS TEN 1", SONY SPORTS TEN 1
+https://iptvlive-beta.vercel.app/sony-sports-ten-1/index.m3u8
+
+#EXTINF:-1 tvg-id="sony-sports-ten-2" tvg-name="SONY SPORTS TEN 2", SONY SPORTS TEN 2
+https://iptvlive-beta.vercel.app/sony-sports-ten-2/index.m3u8
+
+#EXTINF:-1 tvg-id="sony-sports-ten-3" tvg-name="SONY SPORTS TEN 3", SONY SPORTS TEN 3
+https://iptvlive-beta.vercel.app/sony-sports-ten-3/index.m3u8
+
+#EXTINF:-1 tvg-id="sony-sports-ten-5" tvg-name="SONY SPORTS TEN 5", SONY SPORTS TEN 5
+https://iptvlive-beta.vercel.app/sony-sports-ten-5/index.m3u8
+
+#EXTINF:-1 tvg-id="willow" tvg-name="WILLOW", WILLOW
+https://iptvlive-beta.vercel.app/willow/index.m3u8
+
+#EXTINF:-1 tvg-id="willow-extra" tvg-name="WILLOW EXTRA", WILLOW EXTRA
+https://iptvlive-beta.vercel.app/willow-extra/index.m3u8
+
+#EXTINF:-1 tvg-id="sports-18-1" tvg-name="SPORTS 18 1", SPORTS 18 1
+https://iptvlive-beta.vercel.app/sports-18-1/index.m3u8
+
+# --- INDIAN ENTERTAINMENT & SERIALS ---
+#EXTINF:-1 tvg-id="star-jalsha" tvg-name="STAR JALSHA", STAR JALSHA
+https://iptvlive-beta.vercel.app/star-jalsha/index.m3u8
+
+#EXTINF:-1 tvg-id="zee-bangla" tvg-name="ZEE BANGLA", ZEE BANGLA
+https://iptvlive-beta.vercel.app/zee-bangla/index.m3u8
+
+#EXTINF:-1 tvg-id="colors-bangla" tvg-name="COLORS BANGLA", COLORS BANGLA
+https://iptvlive-beta.vercel.app/colors-bangla/index.m3u8
+
+#EXTINF:-1 tvg-id="star-plus" tvg-name="STAR PLUS", STAR PLUS
+https://iptvlive-beta.vercel.app/star-plus/index.m3u8
+
+#EXTINF:-1 tvg-id="sony-sab" tvg-name="SONY SAB", SONY SAB
+https://iptvlive-beta.vercel.app/sony-sab/index.m3u8
+
+#EXTINF:-1 tvg-id="zee-tv" tvg-name="ZEE TV", ZEE TV
+https://iptvlive-beta.vercel.app/zee-tv/index.m3u8
+
+#EXTINF:-1 tvg-id="colors-tv" tvg-name="COLORS TV", COLORS TV
+https://iptvlive-beta.vercel.app/colors-tv/index.m3u8
+
+#EXTINF:-1 tvg-id="sony-entertainment" tvg-name="SONY ENTERTAINMENT", SONY ENTERTAINMENT
+https://iptvlive-beta.vercel.app/sony-entertainment/index.m3u8
+
+# --- INDIAN MOVIE CHANNELS ---
+#EXTINF:-1 tvg-id="jalsha-movies" tvg-name="JALSHA MOVIES", JALSHA MOVIES
+https://iptvlive-beta.vercel.app/jalsha-movies/index.m3u8
+
+#EXTINF:-1 tvg-id="zee-bangla-cinema" tvg-name="ZEE BANGLA CINEMA", ZEE BANGLA CINEMA
+https://iptvlive-beta.vercel.app/zee-bangla-cinema/index.m3u8
+
+#EXTINF:-1 tvg-id="zee-cinema" tvg-name="ZEE CINEMA", ZEE CINEMA
+https://iptvlive-beta.vercel.app/zee-cinema/index.m3u8
+
+#EXTINF:-1 tvg-id="star-gold" tvg-name="STAR GOLD", STAR GOLD
+https://iptvlive-beta.vercel.app/star-gold/index.m3u8
+
+#EXTINF:-1 tvg-id="star-gold-select" tvg-name="STAR GOLD SELECT", STAR GOLD SELECT
+https://iptvlive-beta.vercel.app/star-gold-select/index.m3u8
+
+#EXTINF:-1 tvg-id="sony-max" tvg-name="SONY MAX", SONY MAX
+https://iptvlive-beta.vercel.app/sony-max/index.m3u8
+
+#EXTINF:-1 tvg-id="sony-max-2" tvg-name="SONY MAX 2", SONY MAX 2
+https://iptvlive-beta.vercel.app/sony-max-2/index.m3u8
+
+#EXTINF:-1 tvg-id="and-pictures" tvg-name="AND PICTURES", AND PICTURES
+https://iptvlive-beta.vercel.app/and-pictures/index.m3u8
+
+#EXTINF:-1 tvg-id="colors-cineplex" tvg-name="COLORS CINEPLEX", COLORS CINEPLEX
+https://iptvlive-beta.vercel.app/colors-cineplex/index.m3u8
