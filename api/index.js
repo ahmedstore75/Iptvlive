@@ -71,7 +71,7 @@ const CHANNELS = {
   //  ভারতীয় বাংলা ও হিন্দি সিরিয়াল/বিনোদন
   // ==========================================
   "star-jalsha": "https://playztv-apps.pages.dev/star-jalsha/index.m3u8",
-  "zee-bangla": "https://playztv-apps.pages.dev/zee-bangla/index.m3u8",
+  "zee-bangla": "https://d1g8wgjurz8via.cloudfront.net/bpk-tv/ColorsHD/default/Zeebanglahd.m3u8",
   "colors-bangla": "https://playztv-apps.pages.dev/colors-bangla/index.m3u8",
   "star-plus": "https://playztv-apps.pages.dev/star-plus/index.m3u8",
   "sony-sab": "https://playztv-apps.pages.dev/sony-sab/index.m3u8",
