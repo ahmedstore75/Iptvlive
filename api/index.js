@@ -3,7 +3,7 @@ const fetch = require('node-fetch');
 const app = express();
 
 // GitHub-এর M3U ফাইল ইউআরএল (যার মাধ্যমে অটো-আপডেট হবে)
-const REMOTE_M3U_URL = 'https://raw.githubusercontent.com/ahmedstore75/StreamBangla/refs/heads/main/BDIX-Playlist.m3u';
+const REMOTE_M3U_URL = 'https://d3qs3d2rkhfqrt.cloudfront.net';
 
 // সাধারণ ইউজার এজেন্ট ও হেডার (স্ট্রিমিং ব্লক আটকানোর জন্য)
 const DEFAULT_HEADERS = {
