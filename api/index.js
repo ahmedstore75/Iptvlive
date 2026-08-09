@@ -6,8 +6,8 @@ const app = express();
 //  ১. একাধিক M3U প্লেলিস্ট সোর্সের তালিকা
 // ==========================================
 const REMOTE_M3U_URLS = [
-  'https://sm-monirul.top/api/app/info/channel_data.json', // আপনার Cloudflare Worker সোর্স
-  'https://raw.githubusercontent.com/ahmedstore75/StreamBangla/refs/heads/main/BDIX-Playlist.m3u' // GitHub সোর্স
+  'https://raw.githubusercontent.com/ahmedstore75/StreamBangla/refs/heads/main/BDIX-Playlist.m3u', // আপনার Cloudflare Worker সোর্স
+  'https://raw.githubusercontent.com/ahmedstore75/iptv-proxy/refs/heads/main/Bangla-Iptv/playlist.m3u' // GitHub সোর্স
 ];
 
 // সাধারণ ইউজার এজেন্ট ও হেডার
