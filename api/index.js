@@ -7,7 +7,7 @@ const app = express();
 // ==========================================
 const REMOTE_M3U_URLS = [
   'https://raw.githubusercontent.com/ahmedstore75/StreamBangla/refs/heads/main/BDIX-Playlist.m3u', // আপনার Cloudflare Worker সোর্স
-  'https://raw.githubusercontent.com/ahmedstore75/iptv-proxy/refs/heads/main/Bangla-Iptv/playlist.m3u' // GitHub সোর্স
+  'https://saiptvlive.ahmed-bd-org.workers.dev' // GitHub সোর্স
 ];
 
 // সাধারণ ইউজার এজেন্ট ও হেডার
